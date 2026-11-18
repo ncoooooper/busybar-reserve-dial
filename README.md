@@ -22,7 +22,7 @@ A station’s time-to-empty includes charge you may want to keep for later. Rese
 
 ## Example from the emulator
 
-The sample reported 161 W of output and 283 minutes to empty. The usable share of that runtime is (73 − 20) ÷ 73. Multiplying by 283 gives about 205 minutes. The estimate will change if the station’s load changes. Synthetic EcoFlow Open API response, parsed by the production adapter. A physical DELTA 2 and account were unavailable.
+The sample reported 161 W of output and 283 minutes to empty. The usable share of that runtime is (73 − 20) ÷ 73. Multiplying by 283 gives about 205 minutes. The estimate will change if the station’s load changes. The recording used a simulated EcoFlow response with these values, processed by the same parser used for a connected station.
 
 ## Set up the source
 
