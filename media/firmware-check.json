@@ -1,0 +1,51 @@
+{
+  "id": "BB-013",
+  "source": "Synthetic EcoFlow Open API response, parsed by the production adapter. A physical DELTA 2 and account were unavailable.",
+  "scenario": "Parsed 73% SOC, 161 W output and device-reported 283 minutes to empty. The second page shows the time to a 20% reserve.",
+  "keys": [
+    "up",
+    "down",
+    "ok"
+  ],
+  "frames": 54,
+  "distinct_frames": 12,
+  "exit": "App io.ncoooooper.reservedial exited: finished; heap peak 82.4 of 128 KiB",
+  "sha256": "e1fb9ff5ff24a1b5b2d715ce6846c5cfa25286f5d92d3ce1b4759cf59d5eb77a",
+  "pages": [
+    {
+      "caption": "STATION SOC",
+      "value": "73%",
+      "lines": [
+        "Output 161 W / in 0 W",
+        "Keep 20% in reserve"
+      ],
+      "fraction": 0.73
+    },
+    {
+      "caption": "TO RESERVE",
+      "value": "3h25",
+      "lines": [
+        "At the current net load",
+        "-- while charge time unknown"
+      ],
+      "fraction": 0.6625
+    },
+    {
+      "caption": "LOAD",
+      "value": "161W",
+      "lines": [
+        "Input 0 W",
+        "AC + DC reported by station"
+      ]
+    }
+  ],
+  "initial": {
+    "caption": "STATION SOC",
+    "value": "73%",
+    "lines": [
+      "Output 161 W / in 0 W",
+      "Keep 20% in reserve"
+    ],
+    "fraction": 0.73
+  }
+}

@@ -4,6 +4,6 @@
   "name": "Reserve Dial",
   "version": "0.1.0",
   "api_version": "27.12.0",
-  "description": "Reserve Dial",
+  "description": "See EcoFlow DELTA 2 charge and the time available before your chosen reserve.",
   "author": "ncoooooper"
 }
