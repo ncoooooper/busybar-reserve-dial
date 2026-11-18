@@ -10,7 +10,7 @@
   "frames": 54,
   "distinct_frames": 12,
   "exit": "App io.ncoooooper.reservedial exited: finished; heap peak 82.4 of 128 KiB",
-  "sha256": "4b060103b474bfbc8f249d34afb5a450c24ea8da9588e7fa6e4bad44afe04844",
+  "sha256": "cf4a8c0d55d813c7bfd7ada39828690d1cb5b60b9861fc6fddaea9de61d527ee",
   "pages": [
     {
       "caption": "STATION SOC",
@@ -62,9 +62,9 @@
     ],
     "frames": 128,
     "distinct_by_flow": [
-      7,
-      11
+      2,
+      2
     ],
-    "exit": "App io.btype.reservedial exited: finished; heap peak 87.3 of 128 KiB"
+    "exit": "App io.btype.reservedial exited: finished; heap peak 87.1 of 128 KiB"
   }
 }

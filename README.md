@@ -4,6 +4,8 @@ See EcoFlow DELTA 2 charge and the time available before your chosen reserve.
 
 A station’s time-to-empty includes charge you may want to keep for later. Reserve Dial estimates how long you can keep the present load running before you reach your own floor.
 
+The five cells show the reported state of charge. On the reserve page they show the remaining share of usable charge above the configured reserve. The load page gives watts.
+
 ## Budget time above reserve
 
 1. Set your reserve percentage on the companion and connect your DELTA 2 account as described below.
