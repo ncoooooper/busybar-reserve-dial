@@ -2,5 +2,5 @@
   "category": "smart-home",
   "short_description": "See EcoFlow DELTA 2 charge and the time available before your chosen reserve.",
   "description": "See EcoFlow DELTA 2 charge and the time available before your chosen reserve. Set ECOFLOW_ACCESS_KEY, ECOFLOW_SECRET_KEY and ECOFLOW_SERIAL locally for your own station. The JSON config accepts reserve_percent and the official API origin for your region. Time to reserve scales the reported time to empty by the usable charge fraction at the current load. Charging or unknown telemetry shows no countdown. Vendor documentation: https://developer-eu.ecoflow.com/us/document/delta2.",
-  "changelog": "First public version."
+  "changelog": "New screen transitions and high-contrast LED previews."
 }

@@ -6,6 +6,20 @@ A station’s time-to-empty includes charge you may want to keep for later. Rese
 
 The five cells show the reported state of charge. On the reserve page they show the remaining share of usable charge above the configured reserve. The load page gives watts.
 
+## Screen transitions
+
+Turn between the available reserve and the load estimate. The remaining time stays on the lower line.
+
+![Reserve Dial front display. Turn between the available reserve and the load estimate. The remaining time stays on the lower line.](media/guide/screen-transitions.gif)
+
+<details>
+
+<summary>Watch the rear display</summary>
+
+![Reserve Dial rear display during the recorded controls](media/guide/screen-transitions-rear.gif)
+
+</details>
+
 ## Budget time above reserve
 
 1. Set your reserve percentage on the companion and connect your DELTA 2 account as described below.
@@ -44,6 +58,6 @@ Open BUSY Bar Emulator. From this repository, run:
 
 Press **Back** to exit.
 
-The GIFs are excerpts from the emulator recording. Each front-display pixel is shown at 9× its original width and height. The end frames pause for reading.
+The GIFs are excerpts from the emulator recording. Each LED occupies a 16 × 16 cell with a black border. The end frames pause for reading.
 
 [Full recording](media/controls.mp4) · [Rear display](screenshots/back-1.png) · [Firmware test](EMULATOR-QA.md) · [MIT license](LICENSE)
